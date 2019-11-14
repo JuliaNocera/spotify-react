@@ -1,0 +1,12 @@
+.App {
+  overflow: hidden;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 90px;
+}
+
+.App-Grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+

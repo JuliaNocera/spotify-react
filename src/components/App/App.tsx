@@ -11,7 +11,7 @@ const App: React.FC = () => {
       {({ width, height, hasComputed }) => {
         console.log({ width, height });
         return (
-          <div className="App" style={{ width, height: height - 17 }}>
+          <div className="App" style={{ width, height }}>
             <div className="App-Grid">
               <Sidebar />
               <Body />

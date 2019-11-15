@@ -11,12 +11,14 @@ const App: React.FC = () => {
       {({ width, height, hasComputed }) => {
         console.log({ width, height });
         return (
-          <div className="App" style={{ width, height }}>
-            <div className="App-Grid">
-              <Sidebar />
-              <Body />
+          <div style={{ width, height }}>
+            <div className="App" style={{ width, height }}>
+              <div className="App-Grid">
+                <Sidebar />
+                <Body />
+              </div>
+              <Footer />
             </div>
-            <Footer />
           </div>
         );
       }}

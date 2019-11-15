@@ -1,3 +1,6 @@
 .Footer {
   background-color: #282828;
+  position: sticky;
+  top: 0;
+  bottom: 0;
 }

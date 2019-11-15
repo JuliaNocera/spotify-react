@@ -1,3 +1,7 @@
+Spotify react web client app for trying out different patterns, deepening css, and working with web APIs using a graphiql client
+
+[Branding guidelines from Spotify](https://developer.spotify.com/branding-guidelines/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

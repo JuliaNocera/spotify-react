@@ -1,0 +1,24 @@
+.jan-NavItem-Icon {
+  padding-right: 15px;
+  height: 24px;
+  width: 24px;
+  stroke-width: 1;
+}
+
+.jan-NavItem {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.jan-routeLink {  
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+.jan-NavItem-Contents {
+  display: flex;
+  align-items: center;
+}

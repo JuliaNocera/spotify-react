@@ -27,11 +27,6 @@ class Autosizer extends Component<AutosizerProps> {
     };
   }
 
-  componentWillReceiveProps(nextProps: AutosizerProps) {
-    console.log({ nextProps });
-    this.setState(this.getComputedDimensions());
-  }
-
   componentDidMount() {
     this.setState({
       ...this.getComputedDimensions(),

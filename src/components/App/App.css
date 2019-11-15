@@ -1,11 +1,11 @@
-.App {
+.jan-App {
   color: white; 
   text-align: center;
   display: grid;
   grid-template-rows: auto 90px;
 }
 
-.App-Grid {
+.jan-App-Grid {
   display: grid;
   grid-template-columns: 230px auto;
   overflow: hidden;

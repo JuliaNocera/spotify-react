@@ -1,0 +1,33 @@
+@import "../../style-variables.scss";
+
+.jan-NavItem-Icon {
+  padding-right: 15px;
+  height: 24px;
+  width: 24px;
+  stroke-width: 1;
+}
+
+.jan-NavItem {
+  font-size: $base-font-size;
+  font-weight: $bold-font-weight;
+  margin-bottom: 16px;
+  margin-right: 24px;
+}
+
+.jan-routeLink {
+  text-decoration: none;
+  color: $spotify-gray-text;
+  -webkit-transition: $hover-highlight-transition;
+  -moz-transition: $hover-highlight-transition;
+  -o-transition: $hover-highlight-transition;
+  transition: $hover-highlight-transition;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.jan-NavItem-Contents {
+  display: flex;
+  align-items: center;
+}

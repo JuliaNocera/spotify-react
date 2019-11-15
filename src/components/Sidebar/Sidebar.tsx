@@ -5,7 +5,6 @@ import { FiHome, FiSearch } from "react-icons/fi";
 import { GiBookshelf } from "react-icons/gi";
 
 import { ROUTES } from "../../lib/routes";
-import "./Sidebar.css";
 import SpotifyHome from "./SpotifyHome";
 import Playlists from "./Playlists";
 

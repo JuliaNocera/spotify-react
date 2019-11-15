@@ -1,5 +1,4 @@
 import React from "react";
-import "./Body.css";
 
 const Body: React.FC = ({ children, ...props }) => {
   return (

@@ -2,7 +2,6 @@ import React from "react";
 import cx from "classnames";
 import { IconContext } from "react-icons";
 
-import "./NavItem.css";
 import { A } from "hookrouter";
 
 interface NavItemProps {

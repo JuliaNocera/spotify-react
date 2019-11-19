@@ -18,9 +18,11 @@ const NavItem: React.FC<NavItemProps> = ({
   label,
   route
 }) => {
-  const classNames = cx("jan-routeLink", { className: !!className });
+  const classNames = cx("jan-routeLink", "jan-NavItem", {
+    [className]: !!className
+  });
   return (
-    <div className="jan-NavItem">
+    <>
       {children ? (
         <A href={route} className={classNames}>
           {children}
@@ -28,14 +30,18 @@ const NavItem: React.FC<NavItemProps> = ({
       ) : (
         <A href={route} className={classNames}>
           <div className="jan-NavItem-Contents">
-            <IconContext.Provider value={{ className: "jan-NavItem-Icon" }}>
+            <IconContext.Provider
+              value={{
+                className: cx("jan-NavItem-Icon", { [className]: !!className })
+              }}
+            >
               {icon}
             </IconContext.Provider>
             <div>{label}</div>
           </div>
         </A>
       )}
-    </div>
+    </>
   );
 };
 
